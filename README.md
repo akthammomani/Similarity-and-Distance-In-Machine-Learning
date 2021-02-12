@@ -1,4 +1,4 @@
-# Cosine Similarity, Euclidean and Manhattan distance metrics in Machine Learning
+# Similarity and Distance Metrics for Data Science and Machine Learning
 
 ## Introduction
 
