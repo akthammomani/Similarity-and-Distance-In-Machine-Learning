@@ -1,4 +1,4 @@
-# Euclidean and Manhattan distance metrics in Machine Learning
+# Cosine Similarity, Euclidean and Manhattan distance metrics in Machine Learning
 
 ## Introduction
 
@@ -23,6 +23,18 @@ Applications of Manhattan distance metric include:
   * Regression analysis: It is used in the linear regression to find a straight line that fits a given set of points
   * Compressed sensing: In solving an underdetermined system of linear equations, the regularisation term for the parameter vector is expressed in terms of Manhattan distance. This approach appears in the signal recovery framework called compressed sensing
   * Frequency distribution: It is used to assess the differences in discrete frequency distributions.
+  
+  
+## Cosine Similarity: 
+
+Cosine similarity calculates similarity by measuring the cosine of angle between two vectors.
+
+Mathematically speaking, Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them. The cosine of 0° is 1, and it is less than 1 for any angle in the interval (0,π] radians. It is thus a judgment of orientation and not magnitude: two vectors with the same orientation have a cosine similarity of 1, two vectors oriented at 90° relative to each other have a similarity of 0, and two vectors diametrically opposed have a similarity of -1, independent of their magnitude.
+The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
+
+
+
+
 
 
 
